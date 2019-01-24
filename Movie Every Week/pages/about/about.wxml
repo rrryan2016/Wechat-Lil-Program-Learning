@@ -1,0 +1,7 @@
+<text class="info">Hello Allen</text>
+
+<text>\n</text>
+
+
+<text class="small_info">Current Time: {{time}}</text>
+

@@ -1,0 +1,11 @@
+<!--pages/wxml/index.wxml-->
+
+<!-- <text>Current Time: {{time}}</text> -->
+
+<!-- <text>pages/wxml/index.wxml</text> -->
+
+<text>"Do you like me?"</text>
+
+<!-- <image class='userinfo-avator' src='./image/a.png'></image> -->
+
+<!-- <image class='userinfo-avator' src='https://i2.hoopchina.com.cn/hupuapp/bbs/356/41943356/thread_41943356_20190124225545_s_2629338_w_1915_h_3139_21054.jpg?x-oss-process=image/resize,w_800/format,webp'></image> -->
