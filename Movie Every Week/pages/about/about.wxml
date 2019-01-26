@@ -1,7 +1,14 @@
-<text class="info">Hello Allen</text>
+<view class="container">
+  <image src="/images/dazhiNBA.png" class='about-banner'></image>
 
-<text>\n</text>
+  <text style='font-weight:bold;font-size:50rpx'>Wacth Movie Everyday</text>
+
+  <view>
+    <text>My </text> <navigator style='display:inline' url='/pages/weekly/weekly' open-type="switchTab" hover-class='nav-hover' class='nav-default'>Recommendation</navigator>
+  </view>
 
 
-<text class="small_info">Current Time: {{time}}</text>
+  <!-- <text>My Github website: https://github.com/rrryan2016?tab=repositories </text> -->
+    <text>My Github website</text>
 
+</view>

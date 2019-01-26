@@ -1,3 +1,32 @@
 {
-  "pages":["pages/about/about"]
+  "pages":[
+    "pages/about/about",
+    "pages/weekly/weekly"],
+  
+  "tabBar":{
+    "list":[
+      {
+        "text":"Weekly Recommendation",
+        "pagePath":"pages/weekly/weekly",
+        "iconPath":"images/icons/weekly.png",
+        "selectedIconPath":"images/icons/weekly-selected.png"
+      },
+      {
+        "text":"about",
+        "pagePath":"pages/about/about",
+        "iconPath":"images/icons/about.png",
+        "selectedIconPath":"images/icons/about-selected.png"
+      }
+    ],
+    "color":"#000",
+    "selectedColor":"#0ba"
+  },
+
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"ghostInSh3ll"
+  }
+
+
 }

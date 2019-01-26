@@ -1,0 +1,10 @@
+<view class='container'>
+  <text>Weekly Recommendation</text>
+  <image src='{{thisWeekRecommendation.imagePath}}'></image>
+  <text>{{thisWeekRecommendation.name}}</text>
+  <text>{{thisWeekRecommendation.comment}}</text>
+
+
+  <!-- <text>{{count+scores}}</text>
+  <text>{{(scores>=60)?"Passed":"Failed"}}</text> -->
+</view>
