@@ -3,8 +3,21 @@
   <image src='{{thisWeekRecommendation.imagePath}}'></image>
   <text>{{thisWeekRecommendation.name}}</text>
   <text>{{thisWeekRecommendation.comment}}</text>
+  <text hidden="{{!thisWeekRecommendation.isHighlyRecommended}}" style='color:red'>Highly Recommended!</text>
+  <!-- <text wx:if="{{weeklyRecommendationList[0].isHighlyRecommended}}"></text> -->
 
 
   <!-- <text>{{count+scores}}</text>
   <text>{{(scores>=60)?"Passed":"Failed"}}</text> -->
+</view>
+
+<view class="container" wx:for="{{weeklyRecommendationList}}">
+<text>{{index+1}} developer: {{item.name}}</text>
+
+  <swiper style="background:#eee">
+    <swiper-item>111</swiper-item>
+    <swiper-item>222</swiper-item>
+    <swiper-item>333</swiper-item>
+  </swiper>
+
 </view>
