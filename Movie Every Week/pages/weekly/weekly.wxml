@@ -11,13 +11,27 @@
   <text>{{(scores>=60)?"Passed":"Failed"}}</text> -->
 </view>
 
-<view class="container" wx:for="{{weeklyRecommendationList}}">
-<text>{{index+1}} developer: {{item.name}}</text>
+<!-- <view class="container" wx:for="{{weeklyRecommendationList}}">
+  <text>{{index+1}} developer: {{item.name}}</text>
+</view> -->
 
-  <swiper style="background:#eee">
+<!-- <view>
+  <swiper style="background:#eee; height:100px;">
+  <swiper style="background:#eee;">
     <swiper-item>111</swiper-item>
     <swiper-item>222</swiper-item>
     <swiper-item>333</swiper-item>
   </swiper>
+</view> -->
 
+<view>
+  <!-- <swiper style="background:#eee; height:100px;"> -->
+  <swiper class='swiper' indicator-dots='{{true}}' previous-margin='50rpx' next-margin='50rpx'>
+    <swiper-item class="container" wx:for="{{weeklyRecommendationList}}">
+      <!-- <view class='container-slide'> -->
+      <view class='container'>
+        <text>{{index+1}} developer: {{item.name}}</text>
+      </view>
+    </swiper-item>
+  </swiper>
 </view>
