@@ -1,3 +1,15 @@
 .swiper{
   height:90vh;
 }
+
+.return-button{
+  position:absolute;
+  right: 0;
+  top: 40px;
+  font-size: 23rpx;
+  font-style: italic;
+  border: 1px solid blue;
+  border-right: 0;
+  border-radius: 10%;
+
+}
